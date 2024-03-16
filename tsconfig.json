@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "ES2022",
+    "outDir": "./dist",
+    "rootDir": "./examples",
+    "strict": true
+  },
+  "include": ["./examples/**/*.ts"]
+}

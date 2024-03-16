@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "ES2022",
+    "outDir": "out-tsc",
+    "rootDir": "./src", // This should be the root directory of your TypeScript files
+    "strict": true
+  },
+  "include": [
+    "./src/**/*.ts" // Adjust the pattern to match your TypeScript files
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "keksjs-project",
+  "version": "1.0.0",
+  "description": "A frontend framework",
+  "private": true,
+  "workspaces": [
+    "packages/runtime",
+    "packages/compiler",
+    "packages/loader"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "prepack": "npm run build",
+    "build": "tsc && npm run serve:examples",
+    "serve:examples": "npx http-server . -o .dist/ch02/"
+  },
+  "keywords": [],
+  "author": "Okeke Jecil",
+  "license": "ISC",
+  "devDependencies": {}
+}
